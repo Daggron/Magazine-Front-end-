@@ -20,13 +20,17 @@ body,html{
 }
 @keyframes animate {
     0%{
-        background-position: left 0px top 10px;
+        background-position: left 0 top 10px;
     }
     40%{
-        background-position: left 400px top  10px;
+        background-position: left 500px top  10px;
     }
     80%{
-        background-position: left -400px top 10px;
+        background-position: left -100px top 10px;
+    }
+    100%
+    {
+        background-position: left -500px  top 10px;
     }
 
 }
@@ -38,4 +42,7 @@ body,html{
 #paragraph p a{
     color:  #ee8866;
     text-decoration: none;
+}
+#post-details{
+    width: 40%;
 }

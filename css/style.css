@@ -35,6 +35,9 @@ a {
     text-decoration: none;
     color: #FFA656;
 }
+a h3{
+    color: black;
+}
 #Heading ul li{
     display: inline;
     float: right;
@@ -57,5 +60,76 @@ ul{
     }
     ul{
         margin-top: -4%;
+    }
+}
+
+figure{
+    border: 1px solid crimson;
+    width: 50%;
+   animation-delay: 1s;
+    margin-left: 25%;
+    background: #ffffff;
+    box-shadow: 3px 3px 1px grey;
+}
+
+figure img{
+    width: 500px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+figure figcaption p{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+#details-box{
+    text-align: justify;
+}
+
+#details-box{
+    height: 330px;
+    animation-delay: 1s;
+    width:80%;
+    margin-left: 10%;
+}
+#main-content{
+    text-align: justify;
+    width:80%;
+    margin-left: 10%;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+@media (max-device-width: 415px){
+
+    figure{
+        width: 40%;
+        margin-left: 10%;
+    }
+    figure img{
+        width: 350px;
+    }
+    #details-box{
+        float: none;
+        margin-top: 0;
+        margin-left: 4%;
+    }
+}
+@media (max-device-width: 1025px)
+{
+    figure{
+        width: 40%;
+        margin-left: 28%;
+    }
+    figure img{
+        width: 350px;
+        margin-left: 8%;
+    }
+
+    #details-box{
+        width: 80%;
+        float: none;
+        margin-top: 0;
+        margin-left: 10%;
     }
 }
